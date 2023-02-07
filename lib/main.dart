@@ -1,3 +1,4 @@
+import 'package:ecommarceassign/screens/api_operation.dart';
 import 'package:ecommarceassign/screens/search_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const SearchScreen(),
+      home: const ApiOperations(),
     );
   }
 }
